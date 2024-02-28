@@ -1,0 +1,13 @@
+{
+    "require": {
+        "twilio/sdk": "^7.12",
+        "ext-gd": "*",
+        "ext-fileinfo": "*",
+        "phpoffice/phpspreadsheet": "^1.29"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpOffice\\PhpSpreadsheet\\": "vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/"
+        }
+    }
+}
